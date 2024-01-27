@@ -1,0 +1,20 @@
+.pagination-container {
+    @apply mx-auto w-fit flex gap-x-2.5 my-2.5;
+}
+
+.paginate-buttons {
+
+    @apply rounded-md cursor-pointer h-10 w-10 border text-black;
+}
+
+.paginate-buttons:hover {
+    @apply bg-[#d8d8d8];
+}
+
+.active-page {
+    @apply bg-[#3498db] border border-[#3498db] text-white;
+}
+
+.active-page:hover {
+   @apply bg-[#2988c8];
+}
